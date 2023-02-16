@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #242933;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #808CAA;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 10px;
+}
+
+.container {
+    background-color: #2F3644;
+    width: 400px;
+    max-width: 100%;
+    border-radius: 4px;
+    border: 2px solid rgb(63, 62, 81);
+    padding: 10px 40px;
+    margin: auto;
+}
+
+.header h1 {
+   color: #ADBBE2;
+   padding: 0;
+}
+
+.form-control {
+   position: relative;
+   padding-bottom: 15px;
+   margin-bottom: 10px;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    border: 3px solid white;
+    border-radius: 4px;
+    display: block;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 16px;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: rgb(110, 165, 193);
+}
+
+.form-control img {
+    visibility: hidden;
+    position: absolute;
+    top: 35px;
+    right: 10px;
+} 
+
+.form-control small {
+    color: rgb(219, 90, 90);
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+} 
+
+
+.form button {
+    background-color: rgb(108, 99, 255);
+    border: 2px solid black;
+    border-radius: 4px;
+    color: white;
+    display: block;
+    font-family: inherit;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    width: 100%;
+    cursor: pointer;
+}
+
+
+/* ----- -----  Estilos para Validacion ----- ----- */
+
+.form-control.success input {
+    border: 3px solid rgb(78, 202, 100);
+}
+
+.form-control.error input {
+    border: 3px solid rgb(219, 90, 90);
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form-control.success .icon-success {
+   visibility: visible;
+} 
+
+.form-control.error .icon-error {
+    visibility: visible;
+}
