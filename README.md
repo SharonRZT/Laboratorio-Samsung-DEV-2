@@ -1,8 +1,7 @@
 # Laboratorio-Samsung-DEV-2
-Validacion de un formulario
+Actividad final: Validacion de un formulario
 
-Actividad final
-Al alumno deberá crear un formulario para crear una cuenta ficticia de acceso a una página web.
+El alumno deberá crear un formulario para crear una cuenta ficticia de acceso a una página web.
 
 Se deberán tener en cuenta las siguientes validaciones:
 
